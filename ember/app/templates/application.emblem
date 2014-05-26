@@ -1,3 +1,9 @@
-h2#title Welcome to Ember.js
+h2#title Welcome to Boston Ember
+
+p 
+  link-to 'application' | Home
+  '
+  ' | 
+  link-to 'about' | About
 
 = outlet
