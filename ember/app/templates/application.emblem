@@ -1,9 +1,12 @@
 h2#title Welcome to Boston Ember
 
 p 
-  link-to 'application' | Home
+  link-to 'Home' 'application'
   '
   ' | 
-  link-to 'about' | About
+  link-to 'Speakers' 'speakers'
+  '
+  ' | 
+  link-to 'About' 'about'
 
 = outlet

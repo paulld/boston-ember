@@ -1,0 +1,3 @@
+p test speakers/index.emblem
+/ each
+/   p = link-to 'speakers.show' this | name
